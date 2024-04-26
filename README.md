@@ -1,30 +1,10 @@
-# React + TypeScript + Vite
+# Relative Pitch Perception Trainer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a game to let develop an intuition for how different harmonic intervals feel and sound. You can choose what interval you want to train. The game will play a note, and you will control the pitch of a second note. You win when the two notes are the target interval apart.
 
-Currently, two official plugins are available:
+For example, if the target interval is unison, and the game plays C4, you must move the slider until the second note is also playing C4.
+If the target interval is a perfect fifth, and the game plays C4, you must move the slider until the second note is playing G4.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You must do this only using your hearing, you will not be told what note is playing.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Have fun! 😊
